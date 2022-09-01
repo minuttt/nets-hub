@@ -1,0 +1,32 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/mPndTKYp"))()
+Library:CreateUI("nets hub") -- Put your GUI Name Within the ""
+
+Library:CreateRGBSection("Created by minute#2421") -- Put your credentials within the ""
+
+Library:CreateSection("Bedwars Scripts")
+-- Put nothing here
+Library:CreateButton("FE head resize", function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end
+end)
+
+Library:CreateButton("Vape V4", function()
+	--[[f you want more buttons copy the Library:CreateButton("Button 2", function() 
+	
+	end)
+	and then paste it where the next text line is
+	--]]     
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+--delete this text and paste here :   ) 
+
+Library:CreateSection("Toggles")
+
+Library:CreateToggle("My Toggle", function(value)
+	if value then
+		print("Toggle Active")
+		else
+		print("Toggle Inactive")
+	end
+end)	
