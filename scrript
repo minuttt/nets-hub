@@ -31,7 +31,7 @@ end
 
 end)
 
-Library:CreateButton("FE walk on walls", function()
+Library:CreateButton("FE walk on walls (Z to toggle)", function()
         loadstring(game:HttpGet(" https://pastebin.com/raw/geUZHr7B "))()
 
 end)
