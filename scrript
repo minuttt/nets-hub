@@ -7,7 +7,7 @@ Library:CreateSection("FE Scripts")
 
 Library:CreateButton("FE Fling All", function()
         loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
-end
+
 end)
 
 
@@ -16,10 +16,9 @@ Library:CreateSection("Bedwars Scripts")
 
 Library:CreateButton("Vape V4", function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-end
+
+
 end)
-
-
 
 Library:CreateSection("Toggles")
 
@@ -29,4 +28,4 @@ Library:CreateToggle("Toggle", function(value)
 		else
 		print("Toggle Inactive")
 	end
-end)	
+end)
