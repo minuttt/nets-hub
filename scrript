@@ -31,6 +31,12 @@ end
 
 end)
 
+Library:CreateButton("FE walk on walls", function()
+        loadstring(game:HttpGet(" https://pastebin.com/raw/geUZHr7B "))()
+
+end)
+
+
 
 Library:CreateSection("Bedwars Scripts")
 
